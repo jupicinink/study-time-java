@@ -1,0 +1,23 @@
+Encapsulamento é o princípio da Programação Orientada a Objetos que restringe o
+acesso direto aos atributos de uma classe e expõe apenas métodos controlados
+para manipulação desses dados.
+Essa prática visa garantir a segurança e integridade dos dados, facilitando a
+manutenção
+
+Para encapsular uma classe em Java, seguimos geralmente os seguintes passos:
+1. Alteramos a visibilidade e o nível de acesso aos atributos e métodos através
+dos modificadores de acesso, utilizando o private ou protected, dependendo
+da situação. Os modificadores controlam quais partes do programa podem
+acessar cada elemento. Os principais modificadores são:
+● public – Permite acesso de qualquer classe.
+● private – Restringe o acesso apenas à própria classe.
+● protected – Permite acesso dentro do mesmo pacote e por subclasses.
+● (Padrão, sem modificador) – Também chamado de default (ou packageprivate), permite acesso apenas dentro do mesmo pacote.
+
+2. Criamos métodos acessores, também conhecidos como getters e setters. Esses
+métodos são usados para obter e modificar os valores dos atributos de uma
+classe.
+● Getters – métodos que retornam um valor.
+● Setters – métodos que alteram o valor de um atributo.
+3. Implementamos regras de negócios dentro desses métodos.
+
