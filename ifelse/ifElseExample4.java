@@ -19,6 +19,8 @@ public class ifElseExample4 {
         }else{
             System.out.println("Both numbers are equal.");
         }
+        scanner.close();
+        scanner2.close();
     }
 }
 

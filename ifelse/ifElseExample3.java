@@ -15,6 +15,7 @@ public class ifElseExample3 {
         }else{
             System.out.println("Access denied.");
         }
+        scanner.close();
         
     }
 }

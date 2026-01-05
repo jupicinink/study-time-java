@@ -13,5 +13,6 @@ public class IfElseExample1 {
         } else {
             System.out.println("The number is odd.");
         }
+        scanner.close();
     }
 }

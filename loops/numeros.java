@@ -23,5 +23,6 @@ public class numeros {
 
             System.out.println(positivos + " números pares e " + negativos + " números ímpares.");
         }
+        scanner.close();
     }
 }

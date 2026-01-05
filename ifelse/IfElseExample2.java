@@ -16,5 +16,6 @@ public class IfElseExample2 {
         } else {
             System.out.println("The student is disapproved.");
         }
+        scanner.close();
     }
 }

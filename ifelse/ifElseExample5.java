@@ -17,5 +17,6 @@ public class ifElseExample5 {
             double discount = 0.0;
             System.out.println(" Value: " + (value - discount));
         }
+        scanner.close();
     }
 }
