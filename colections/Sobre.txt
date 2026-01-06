@@ -1,0 +1,44 @@
+List
+A interface List representa uma coleção ordenada que permite elementos
+duplicados. É recomendada quando a ordem de inserção importa.
+Suas implementações principais são:
+- ArrayList: baseada em array dinâmico, promove acesso rápido por índice;
+- LinkedList: baseada em lista encadeada, eficiente para quando há muitas
+inserções e remoções de elementos.
+
+Set
+A interface Set é projetada para armazenar elementos únicos. A ordem nem sempre
+importa, dependendo da implementação.
+Suas implementações principais são:
+- HashSet: baseado em tabelas hash e a ordem de inserção não é garantida
+- LinkedHashSet: mantém a ordem de inserção
+- TreeSet: mantém os elementos ordenados.
+
+Map
+Um Map é uma estrutura chave-valor
+Suas implementações principais são:
+- HashMap: baseado em tabelas hash, sem ordem garantida
+- LinkedHashMap: mantém a ordem de inserção
+- TreeMap: mantém as chaves ordenadas
+
+Streams
+As partir do Java 8, a API de Streams permite manipular coleções de forma
+declarativa e eficiente.
+As operações em Streams são divididas em intermediárias e terminais:
+- Intermediárias: Retornam um novo Stream e podem ser encadeadas.
+- Terminais: Produzem um resultado final e encerram o fluxo.
+
+Principais operações intermediárias:
+- filter(Predicate<T>): Filtra elementos com base em uma condição.
+- map(Function<T, R>): Transforma os elementos.
+- distinct(): Remove elementos duplicados.
+- sorted(): Ordena os elementos.
+- limit(n): Limita a quantidade de elementos
+
+Principais operações terminais:
+- forEach(Consumer<T>): Executa uma ação para cada elemento.
+- collect(Collectors.toList()): Coleta os elementos em uma nova coleção.
+- count(): Conta os elementos do Stream.
+- findFirst(): Retorna o primeiro elemento encontrado.
+- allMatch(Predicate<T>): Verifica se todos os elementos atendem a uma
+condição.
